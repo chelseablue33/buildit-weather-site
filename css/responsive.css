@@ -1,0 +1,77 @@
+
+@media only screen and (max-width : 992px){
+	.wea_daywise_left{
+		margin-bottom: 15px;
+	}	
+	.wea_time_type_ul li{
+		width: 14%;
+	}
+	.top_cat_ul li{
+		text-align: center;
+	}
+	.wea_top_cat{
+		margin-bottom: 15px;
+	}
+}
+
+
+@media only screen and (max-width : 768px){
+	.head_link_btn{
+		float: none;
+	}
+	.wea_daywise_left{
+		margin-bottom: 15px;
+	}
+	.wea_time_type_ul li{
+		width: 16%;
+	}
+	.wea_title{
+		text-align: center;
+	}
+	.wea_det{
+		display: block;
+	}
+	.wea_deg{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.wea_per{
+		width: 100%;
+		margin: 15px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.wea_per_ul li{
+		text-align: center;
+	}
+	.container{
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width : 480px){
+	.wea_time_type_ul li{
+		width: 33%;
+	}	
+	.wea_daywise_infobtn{
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 768px){
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px){
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px){
+	.container {
+		width: 1070px;
+	}
+}
+
+
